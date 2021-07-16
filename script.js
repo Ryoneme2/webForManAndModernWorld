@@ -2,15 +2,18 @@ const menu = document.querySelector(".menu");
 const bar = document.querySelector(".subNav");
 
 menu.addEventListener('click' , () => {
-if (bar.style.opacity == '1'){
-        bar.style.opacity = '0';
+if (bar.style.display == 'block'){
+        bar.style.display = 'none';
 } else {
-        bar.style.opacity = '1';
+        bar.style.display = 'block';
 }
 });
 
 function ScrollToTarget(target) {
-    document.getElementById(target).scrollIntoView(true);
+  document.getElementById(target).scrollIntoView(true);
+    // setTimeout(()=>{
+    //   bar.style.display = 'none';
+    // },1000)
 }
 
 //Get the button:
@@ -20,9 +23,12 @@ mybutton = document.querySelector('.backtotop');
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.opacity = "1";
-    bar.style.opacity = '0';
+    setTimeout(()=>{
+      bar.style.display = 'none';
+    },2000)
+    // bar.style.opacity = '0';
   } else {
     mybutton.style.opacity = "0";
   }
