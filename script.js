@@ -23,7 +23,7 @@ mybutton = document.querySelector('.backtotop');
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop >= 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.opacity = "1";
     setTimeout(()=>{
       bar.style.display = 'none';

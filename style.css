@@ -1,5 +1,18 @@
 /* 8ca8ee , 7d99de */
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap');
+
+:root{
+    --c1:#22222a;
+    --c2:#323949;
+    --c3:#3d3e51;
+    --c4:#3f435a;
+    --c5:#48506a;
+    --c6:#545f83;
+    --c7:#707da9;
+    --c8:#7a87b3;
+    --c9:#d4eaff;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +28,7 @@ p {
 .sub-li {
     font-size: 16px;
     justify-content: space-between;
-    color: rgb(107, 107, 107); 
+    color: rgb(107, 107, 107);
 }
 h2 {
     font-size: 24px;
@@ -87,7 +100,7 @@ h2 {
     /* margin: 3.8rem 1rem 0 0; */
     top: 0;
     right: 0;
-    background-color: rgb(225, 239, 253);
+    background-color: #e1effd;
     /* border-radius: 6px; */
     display: none;
     opacity: 1;
@@ -120,6 +133,9 @@ h2 {
     opacity: 0;
     transition: all .3s ease-in-out;
 }
+.backtotop:hover {
+    font-size: 24px;
+}
 .listNav {
     font-size: 20px;
     text-decoration: none;
@@ -136,6 +152,10 @@ h2 {
     height: auto;
     object-fit: cover;
     flex-shrink: 0;
+}
+.svg-container svg{
+    max-width: 100vw;
+    height: auto;
 }
 
 @media only screen and (max-width:992px) {
@@ -196,6 +216,12 @@ h2 {
 .textCenter {
     text-align: center;
 }
+.text-a a:hover { 
+    font-size: 24px;
+    color: rgb(138, 138, 138);
+}
+
+
 
 .center {
     display: flex;
@@ -208,6 +234,11 @@ h2 {
 }
 .imgSelf {
     width: 90px;
+    height: auto;
+    transition: all .15s ease-in-out;
+}
+.imgSelf:hover { 
+    width: 170px;
     height: auto;
 }
 @media only screen and (max-width:400px) {
@@ -239,6 +270,9 @@ h2 {
     border-radius: 9999px;
     box-shadow: 3px 6px 15px -1px rgba(45, 73, 92, 0.4);
 }
+.bgImg:hover { 
+    background-color: #e3eaff;
+}
 .self-photo {
     width: 100%;
     max-width: 350px;
@@ -246,4 +280,28 @@ h2 {
 }
 .ul-footer li>a {
     color: rgb(218, 218, 218);
+}
+.section-1{
+    background-color: var(--c1);
+}
+.section-2{
+    background-color: var(--c2);
+}
+.section-3{
+    background-color: var(--c3);
+}
+.section-4{
+    background-color: var(--c4);
+}
+.section-5{
+    background-color: var(--c5);
+}
+.section-6{
+    background-color: var(--c6);
+}
+.section-7{
+    background-color: var(--c7);
+}
+.section-8{
+    background-color: var(--c8);
 }
