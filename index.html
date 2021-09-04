@@ -14,6 +14,11 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
     <title>Man and Modern World : Disruptive Technolohy</title>
   </head>
   <body>
@@ -104,11 +109,11 @@
 
     <!-- back To top -->
     <div class="backtotop" onclick="topFunction()">
-      <p>Back To Top</p>
+      <!-- <p>Back To Top</p> -->
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20"
+        width="30"
+        height="30"
         fill="currentColor"
         class="bi bi-arrow-up"
         viewBox="0 0 16 16"
@@ -121,6 +126,66 @@
     </div>
 
     <script src="./script.js"></script>
+
+    <!-- modal -->
+    <div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Disruptive innovation</h2>
+                  <button 
+                  type="button" 
+                  class="btn-close" 
+                  data-bs-dismiss="modal"
+                  aria-label="Close">
+                  </button>
+            </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <p class="text-light" style="text-indent: 2.5em">Disruptive Innovation ความหมายเร็วๆ 
+                        ที่คนทั่วไปนึกถึงก็คือการที่สินค้า บริการใดๆ 
+                        ที่สามารถทำให้อุตสาหกรรมปัจจุบันนั้นเกิดสั่นคลอน หรือกระทั่งตายจากไปได้ ตัวอย่างของ Disruptive Innovation 
+                        มีให้เห็นมากมาย เช่น PC กับ Mainframe Smartphone กับ PDA จอ LCD กับ จอ CRT เพลงแบบดิจิตอล 
+                        กับ เพลงแบบ CD ฯลฯ แต่จริงๆ แล้ว concept ของ Disruptive Innovation 
+                        มันมีความหมายที่ลึกซึ้งมากไปกว่านั้น การที่เราทำความเข้าใจมันเพิ่มขึ้นอีกสักนิด </p>
+                      <p class="text-light" style="text-indent: 2.5em">The Explainer จาก hbr.org ซึ่งถือว่าเป็นจุดเริ่มต้นในการเรียนรู้ 
+                        concept ทางด้านธุรกิจ การบริหารจัดการ 
+                        ที่ยอดเยี่ยมมาก ทาง Harvard Business Review เขาลงทุนทำ Video สั้นๆ ขึ้นมาเพื่ออธิบายไอเดียต่างๆ 
+                        เช่น Big Data, Reverse Innovation, Porter’s Five Forces, ฯลฯ</p>
+                    </div>
+                    <div class="col-12 my-5">
+                      <div class="center">
+                        <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/o_lUXxXfMv0" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="container">
+                        <p class="text-dark p-4">1. Clayton M. Christensen อาจารย์จากมหาวิทยาลัย Harvard เป็นคนคิดคำนี้ขึ้นมา 
+                          และได้พูดถึงเป็นครั้งแรกในบทความเรื่อง Disruptive Technologies: Catching the Wave ในปี 1995 
+                          ต่อมาได้ขยายไอเดียนี้ในหนังสือเรื่อง Innovator’s Dilemma แรกเริ่มเดิมทีเขาใช้คำว่า Disruptive Technology แต่พักหลังๆ 
+                          เขาเปลี่ยนมาใช้คำว่า Disruptive Innovation แทน เข้าใจว่าคำว่า Innovation น่าจะกว้างกว่า เพราะนวัตกรรมหลายๆ 
+                          อย่างก็ไม่จำเป็นต้องพึ่งพิง Technology เสมอไป</p>
+                        <p class="text-dark p-4">2. บริษัทเกิดใหม่ๆ ขนาดเล็กๆ สามารถเอาชนะบริษัทยักษ์ใหญ่ได้อย่างไร? นี่คือคำถามหลักของ Disruptive Innovation โดย Clayton บอกว่า บริษัทใหญ่ๆ มักมุ่งไปที่ Sustaining Innovation หรือการพัฒนาสินค้าและบริการของตัวเองให้ดีขึ้นเรื่อยๆ โดยการเพิ่ม feature เพิ่มคุณภาพ เพิ่มหน้าตาสีสัน ฯลฯ (ยกตัวอย่าง มีดโกนห้าใบมีด จอทีวีที่ชัดแจ๋วจนเกินตามนุษย์จะแยกแยะออก) แต่บริษัทยักษ์ใหญ่เหล่านี้กลับละเลยลูกค้าทั่วๆ ไปที่ไม่ต้องการ features อะไรมากมาย และต้องการตัวเลือกที่ราคาถูกกว่า นี่เองเป็นจุดเริ่มต้นที่ทำให้พวก entrepreneur หรือ startup ทั้งหลายมองเห็นลู่ทาง และโดดเข้ามาร่วมวงไพบูลย์</p>
+                        <p class="text-dark p-4">3. บริษัทยักษ์ใหญ่เมามันส์กับการเพิ่มกำไร โดยการเพิ่ม features ฟรุ้งฟริ้ง จนในบางครั้งอาจถึงระดับที่ลูกค้าบางกลุ่มไม่ได้ต้องการ (over-served) แต่ยักษ์ใหญ่เหล่านี้ไม่แคร์ เพราะเน้นไปที่ลูกค้าที่่มีกำลังซื้อและพร้อมจะจ่ายแพง ในขณะเดียวกันบริษัทเล็กๆ ก็ค่อยแอบย่องเข้ามาเสนอสินค้าที่ basic กว่า แต่ตอบสนองลูกค้ากลุ่มใหญ่ที่ต้องการของถูกกว่า โดยที่ยักษ์ใหญ่ไม่ได้ระแวดระวัง จริงๆ แล้วลูกค้ากลุ่มที่ต้องการของ basic นี้ไม่ได้เลือกซื้อของที่ราคาถูกอย่างเดียว ถ้ามันห่วยเขาก็ไม่ซื้อ แต่เขาจะรอจนกว่าคุณภาพของสินค้าจากบริษัทเล็กๆ เหล่านี้ได้เรื่องในระดับหนึ่งที่เขาพอใจ เมื่อนั้นแหละบริษัทเล็กๆ ก็จะโตขึ้นเรื่อยๆ และจะกลายเป็นแจ็คผู้ฆ่ายักษ์ (ต่อไปนี้ขอเรียกว่า disruptors)</p>
+                        <p class="text-dark p-4">4. ตัวอย่างคลาสสิคของ disruptors คือ โรงงานเหล็กแบบ minimills กับ integrated steel mills โดยที่ minimills เริ่มผลิต reinforcing bar หรือ rebar ก่อน แล้วค่อยๆ ไปผลิต sheet metal ต่อ และค่อยๆ กิน market share จนใหญ่กว่า integrated steel mills ในที่สุด</p>
+                        <p class="text-dark p-4">5. แล้วยักษ์ใหญ่จะสู้กับ disruptors เหล่านี้ได้อย่างไร? Clayton แนะนำว่า ก็ต้องสร้าง Disruptive Innovation ของตัวเอง แต่ต้องแยกหน่วยงานที่ดูแลเรื่องนี้ออกมาต่างหาก และคิดเรื่องวิธีบริหารจัดการใหม่หมด ต้องคิด business model ใหม่ อย่าเอาไปปนกับหน่วยงานปัจจุบัน ให้นึกว่าอะไรคือ Jobs to Be Done มากกว่านึกถึง products, market size หรือ demographic จากนั้นก็เริ่มพัฒนา หาทางตอบโจทย์ Jobs to Be Done ที่ว่านี้แบบ low-cost</p>
+                        <p class="text-dark p-4">6. เนื่องจากคำว่า Disruptive Innovation หรือ Disruption นี้ถูกใช้กันแพร่หลาย หรืออาจจะเรียกได้ว่าเฝือมากๆ บางครั้งก็ถูเอาไปใช้ผิดๆ ไม่ตรงกับความตั้งใจของ Clayton ปลายปี 2015 Clayton เลยเขียนบทความเรื่อง What is Disruptive Innovation? ลงใน Harvard Busines Review เพื่ออธิบายแนวคิดนี้อีกครั้งหนึ่ง โดยได้ยกตัวอย่างของ Uber ที่หลายคนคงรู้จักกันดี</p>
+                        <p class="text-dark p-4">7. Uber ถือว่าเป็น Disruptive Innovation หรือไม่? Uber เป็น application เรียกรถบนมือถือที่ก่อตั้งในปี 2009 และมีการเติบโตอย่างรวดเร็ว ตอนนี้มีกว่า 60 ประเทศที่มี Uber ใช้ เจ้าของทฤษฎีเองบอกว่าถึงแม้ Uber จะดูเหมือนประสบความสำเร็จอย่างมาก และดูเหมือนจะมีผลกระทบอย่างใหญ่หลวงกับธุรกิจแท็กซี่ แต่ Uber ก็หาได้เป็น Disruptive Innovation ไม่ เหตุผล คือ Disruptive Innovation เกิดจาก low-end foothold หรือ new-market foothold สำหรับ low-end foothold อธิบายไปแล้วในข้อ 2–4 ส่วน new-market foothold ก็คือ การสร้างตลาดที่ไม่เคยมีมาก่อน หรือพูดง่ายๆ ก็คือต้องหาทางเอาคนที่ไม่เคยใช้สินค้าหรือบริการแบบที่เรากำลังเสนอมาใช้ (turn non-consumers into consumers) จะบอกว่า Uber เริ่มจาก low-end ก็ไม่ใช่ เพราะรถ Uber ส่วนใหญ่จะดีกว่า สะอาดกว่า และคนขับมีมารยาทกว่า แต่จะบอกว่า Uber เริ่มจาก new-market ก็ไม่ใช่อีก เพราะ non-consumers ในที่นี้หมายถึง คนที่มองว่าแท็กซี่แพงเกินไปหรือไม่สะดวก เลยต้องไปนั่งขนส่งสาธารณะ ในทางตรงกันข้าม Uber เริ่มธุรกิจที่ San Francisco ซึ่งเป็นตลาดแท็กซี่ขนาดใหญ่ และคนส่วนใหญ่นิยมนั่งแท็กซี่กันอยู่แล้ว (แต่เอาเข้าจริง ตอนนี้นิยามของ Disruptive Innovation หรือ Disruption มันกลายเป็น popular term ที่หลายคนยอดรับไปแล้วว่า Uber หรือ Grab กำลังจะค่อยๆ มา disrupt อุตสาหกรรม taxi และอื่นๆ ที่เกี่ยวข้อง)</p>
+                        <p class="text-dark p-4">8. แล้วมันสำคัญยังไงที่มานั่งเถียงว่าอะไรคือ disruption อะไรไม่ใช่ disruption? Clayton บอกว่าการเข้าใจทฤษฎีได้อย่างถูกต้อง ก็จะทำให้เราเลือกที่จะปฏิบัติตัวได้อย่างถูกต้อง หลายๆ คนมักใช้คำว่า disruption ก็เพื่อกระตุ้นเรื่อง innovation ในองค์กร หากเข้าใจกันผิด ก็อาจจะไปหยิบเครื่องมือ หรือวิธีการผิดๆ มาใช้ และไม่ได้แก้ปัญหาที่ต้นเหตุจริงๆ Clayton แนะนำว่า ควรจะศึกษาหรือพยายามทำความเข้าใจอย่างถ่องแท้ ก่อนที่จะหยิบเอาคำว่า Disruptive Innovation ไปใช้อย่างจริงจังในองค์กร</p>
+                        <p class="text-dark p-4">9. ในความเห็นของผมเอง จะ disruption หรือไม่ disruption ทุกอย่างมันขึ้นอยู่กับว่าเราเข้าใจลูกค้า และสามารถตอบสนองความต้องการของเขาได้ดีขนาดไหน และผมเองค่อนข้างเชื่อในวิถีแห่ง Lean Startup เพราะเป็นแนวทางที่ทำให้เราเข้าใจลูกค้า และค่อยๆ de-risk โดยที่ยังไม่ต้องลงทุนก้อนใหญ่ไปพร้อมความเสี่ยงก้อนโต</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+    </div>
+    </div>
 
     <div class="svg-container">
       <svg
@@ -224,10 +289,10 @@
             <div class="col-sm-12">
               <h2 class="my-4" id="#sec1">Disruptive technology คือ</h2>
             </div>
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12">
               <p style="text-indent: 2.5em">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Disruptive_innovation"
                   >Disruptive Technology</a
                 >
@@ -250,15 +315,24 @@
                 Technology
                 คือหนึ่งสิ่งที่ทำให้เกิดทั้งการสร้างงานและอาจทำให้ตำแหน่งงานบางตำแหน่งถูกทำลายไปได้
               </p>
-            </div>
-            <div class="col-sm-12 col-md-4 center">
-              <img class="img-thumbnail" src="/img/12DISRUPTIVE.jpg" alt="" />
-            </div>
-          </div>
+              <button
+                type="button"
+                class="btn btn-primary my-3"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                More Information
+              </button>
+
+              
         </div>
       </div>
     </div>
+    </div>
+  </div>
     <div class="boxed section-2"></div>
+
+   
 
     <div class="svg-container">
       <svg
@@ -402,7 +476,7 @@
               </div>
               <h3 class="my-3 textCenter">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Artificial_intelligence"
                   >Artificial Intelligence (AI)</a
                 >
@@ -421,7 +495,7 @@
               </div>
               <h3 class="my-3 textCenter">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/3D_printing"
                   >3D Printing</a
                 >
@@ -440,7 +514,7 @@
               </div>
               <h3 class="my-3 textCenter">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Robotics"
                   >Robotics</a
                 >
@@ -458,12 +532,42 @@
     </div>
     <div class="boxed section-4"></div>
 
+    <div class="svg-container">
+      <svg
+        id="visual"
+        viewBox="0 0 1920 500"
+        width="1920"
+        height="500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <rect x="0" y="0" width="1920" height="500" fill="#48506a"></rect>
+        <path
+          d="M0 207L35.5 225.8C71 244.7 142 282.3 213.2 300C284.3 317.7 355.7 315.3 426.8 304C498 292.7 569 272.3 640 264.2C711 256 782 260 853.2 267.8C924.3 275.7 995.7 287.3 1066.8 288.5C1138 289.7 1209 280.3 1280 259.5C1351 238.7 1422 206.3 1493.2 197.5C1564.3 188.7 1635.7 203.3 1706.8 205.3C1778 207.3 1849 196.7 1884.5 191.3L1920 186L1920 0L1884.5 0C1849 0 1778 0 1706.8 0C1635.7 0 1564.3 0 1493.2 0C1422 0 1351 0 1280 0C1209 0 1138 0 1066.8 0C995.7 0 924.3 0 853.2 0C782 0 711 0 640 0C569 0 498 0 426.8 0C355.7 0 284.3 0 213.2 0C142 0 71 0 35.5 0L0 0Z"
+          fill="#6b7792"
+        ></path>
+        <path
+          d="M0 234L35.5 232.7C71 231.3 142 228.7 213.2 224C284.3 219.3 355.7 212.7 426.8 216.7C498 220.7 569 235.3 640 230C711 224.7 782 199.3 853.2 193C924.3 186.7 995.7 199.3 1066.8 203.3C1138 207.3 1209 202.7 1280 187.3C1351 172 1422 146 1493.2 137.2C1564.3 128.3 1635.7 136.7 1706.8 151.7C1778 166.7 1849 188.3 1884.5 199.2L1920 210L1920 0L1884.5 0C1849 0 1778 0 1706.8 0C1635.7 0 1564.3 0 1493.2 0C1422 0 1351 0 1280 0C1209 0 1138 0 1066.8 0C995.7 0 924.3 0 853.2 0C782 0 711 0 640 0C569 0 498 0 426.8 0C355.7 0 284.3 0 213.2 0C142 0 71 0 35.5 0L0 0Z"
+          fill="#5c657f"
+        ></path>
+        <path
+          d="M0 184L35.5 168C71 152 142 120 213.2 123.2C284.3 126.3 355.7 164.7 426.8 166.2C498 167.7 569 132.3 640 117.3C711 102.3 782 107.7 853.2 125.7C924.3 143.7 995.7 174.3 1066.8 181.8C1138 189.3 1209 173.7 1280 151C1351 128.3 1422 98.7 1493.2 93.3C1564.3 88 1635.7 107 1706.8 122.2C1778 137.3 1849 148.7 1884.5 154.3L1920 160L1920 0L1884.5 0C1849 0 1778 0 1706.8 0C1635.7 0 1564.3 0 1493.2 0C1422 0 1351 0 1280 0C1209 0 1138 0 1066.8 0C995.7 0 924.3 0 853.2 0C782 0 711 0 640 0C569 0 498 0 426.8 0C355.7 0 284.3 0 213.2 0C142 0 71 0 35.5 0L0 0Z"
+          fill="#4e546c"
+        ></path>
+        <path
+          d="M0 117L35.5 101.7C71 86.3 142 55.7 213.2 56C284.3 56.3 355.7 87.7 426.8 95.3C498 103 569 87 640 81.5C711 76 782 81 853.2 77.2C924.3 73.3 995.7 60.7 1066.8 55.7C1138 50.7 1209 53.3 1280 56C1351 58.7 1422 61.3 1493.2 72.7C1564.3 84 1635.7 104 1706.8 113.8C1778 123.7 1849 123.3 1884.5 123.2L1920 123L1920 0L1884.5 0C1849 0 1778 0 1706.8 0C1635.7 0 1564.3 0 1493.2 0C1422 0 1351 0 1280 0C1209 0 1138 0 1066.8 0C995.7 0 924.3 0 853.2 0C782 0 711 0 640 0C569 0 498 0 426.8 0C355.7 0 284.3 0 213.2 0C142 0 71 0 35.5 0L0 0Z"
+          fill="#3f435a"
+        ></path>
+      </svg>
+    </div>
+
     <!-- Section 5:ชนิดของ Disruptive technologies -->
     <div class="container-fluid section-5">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div data-aos="fade-up" data-aos-duration="3000">
+            <div data-aos="fade-up" data-aos-duration="1500">
               <h2 class="textCenter my-3" id="#sec5">
                 ชนิดของ Disruptive technologies
               </h2>
@@ -474,7 +578,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- อินเทอร์เน็ตไร้สาย (Mobile Internet) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -486,7 +590,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Mobile_web"
                   >อินเทอร์เน็ตไร้สาย (Mobile Internet)</a
                 >
@@ -494,7 +598,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีอัตโนมัติในด้านการวิเคราะห์ (Automation) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -506,7 +610,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Automation"
                 >
                   เทคโนโลยีอัตโนมัติในด้านการวิเคราะห์ (Automation)
@@ -515,7 +619,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- อินเตอร์เน็ตในทุกสิ่ง (Internet of Things) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -527,7 +631,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Internet_of_things"
                   >อินเตอร์เน็ตในทุกสิ่ง (Internet of Things)</a
                 >
@@ -535,7 +639,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- การประมวลผล (Cloud Computing) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -547,7 +651,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Cloud_computing"
                   >การประมวลผล (Cloud Computing)</a
                 >
@@ -555,7 +659,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-left">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีหุ่นยนต์ (Robotics) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -567,7 +671,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Robotics"
                   >เทคโนโลยีหุ่นยนต์ (Robotics)</a
                 >
@@ -575,7 +679,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-left">
+            <div data-aos="fade-down">
               <!-- ยานพาหนะไร้คนขับหรือกึ่งไร้คนขับ (Vehicles) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -587,7 +691,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Vehicle"
                   >ยานพาหนะไร้คนขับหรือกึ่งไร้คนขับ (Vehicles)</a
                 >
@@ -595,7 +699,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-left">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีชีวภาพ (genomics) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -607,7 +711,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Genomics"
                   >เทคโนโลยีชีวภาพ (genomics)</a
                 >
@@ -615,7 +719,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-left">
+            <div data-aos="fade-down">
               <!-- อุปกรณ์หรือระบบกักเก็บพลังงาน (Storage) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -627,7 +731,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Storage_(memory)"
                   >อุปกรณ์หรือระบบกักเก็บพลังงาน (Storage)</a
                 >
@@ -635,7 +739,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีการพิมพ์สามมิติ (3D Printing) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -647,7 +751,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/3D_printing"
                   >เทคโนโลยีการพิมพ์สามมิติ (3D Printing)</a
                 >
@@ -655,7 +759,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีวัสดุชาญฉลาด (Materials) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -667,7 +771,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Materials_science"
                   >เทคโนโลยีวัสดุชาญฉลาด (Materials)</a
                 >
@@ -675,7 +779,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีสำรวจและขุดเจาะน้ำมัน (Oil and Gas) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -687,7 +791,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Fossil_fuel"
                   >เทคโนโลยีสำรวจและขุดเจาะน้ำมัน (Oil and Gas)</a
                 >
@@ -695,7 +799,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-3">
-            <div data-aos="zoom-out-right">
+            <div data-aos="fade-down">
               <!-- เทคโนโลยีพลังงานทดแทน (Renewable) -->
               <div class="my-4 center center2 bgImg">
                 <img
@@ -707,7 +811,7 @@
               </div>
               <p class="textCenter text-a">
                 <a
-                  class="text-dark"
+                  class="text-light"
                   href="https://en.wikipedia.org/wiki/Renewable_resource"
                   >เทคโนโลยีพลังงานทดแทน (Renewable)</a
                 >
@@ -718,76 +822,134 @@
       </div>
     </div>
 
+    <div class="svg-container">
+      <svg
+        id="visual"
+        viewBox="0 0 1920 500"
+        width="1920"
+        height="500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <rect x="0" y="0" width="1920" height="500" fill="#48506a"></rect>
+        <path
+          d="M0 385L45.7 386.2C91.3 387.3 182.7 389.7 274.2 372.7C365.7 355.7 457.3 319.3 548.8 289.2C640.3 259 731.7 235 823 252.8C914.3 270.7 1005.7 330.3 1097 333C1188.3 335.7 1279.7 281.3 1371.2 249.7C1462.7 218 1554.3 209 1645.8 208.5C1737.3 208 1828.7 216 1874.3 220L1920 224L1920 501L1874.3 501C1828.7 501 1737.3 501 1645.8 501C1554.3 501 1462.7 501 1371.2 501C1279.7 501 1188.3 501 1097 501C1005.7 501 914.3 501 823 501C731.7 501 640.3 501 548.8 501C457.3 501 365.7 501 274.2 501C182.7 501 91.3 501 45.7 501L0 501Z"
+          fill="#545f83"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
     <!-- Section 6:สรุป -->
     <div class="container-fluid section-6">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="my-3" id="#sec6">สรุป</h2>
-            <p style="text-indent: 2.5em">
-              สิ่งสำคัญสำหรับองค์กรธุรกิจนั้น
-              จำเป็นที่จะต้องมีการเตรียมตัวและปรับตัวให้ดียิ่งขึ้น
-              ไม่ว่าจะเป็นภาคการผลิต การวางแผนการตลาด
-              ไปจนถึงการพัฒนาศักยภาพของบุคลากรในองค์กร
-              อีกทั้งการเสริมสร้างทักษะใหม่ๆ ให้พร้อมรับการทำงานในยุค Disruptive
-              Technology นั่นคือสิ่งสำคัญที่ไม่ควรมองข้าม
-              ไม่ว่าจะเป็นการพัฒนาทักษะการสื่อสาร การวิเคราะห์ข้อมูล
-              การทำความเข้าใจในความต้องการและพฤติกรรมของลูกค้า
-              ทักษะในการวางแผนและพัฒนาทีมให้สามารถทำงานได้อย่างมีประสิทธิภาพเพื่อให้ได้ผลลัพธ์ตามที่ต้องการ
-              รวมไปถึงการสร้างแบรนด์และทำการตลาดในยุคปัจจุบัน
-            </p>
+            <div data-aos="fade-down">
+              <h2 class="my-3" id="#sec6">สรุป</h2>
+              <p style="text-indent: 2.5em">
+                สิ่งสำคัญสำหรับองค์กรธุรกิจนั้น
+                จำเป็นที่จะต้องมีการเตรียมตัวและปรับตัวให้ดียิ่งขึ้น
+                ไม่ว่าจะเป็นภาคการผลิต การวางแผนการตลาด
+                ไปจนถึงการพัฒนาศักยภาพของบุคลากรในองค์กร
+                อีกทั้งการเสริมสร้างทักษะใหม่ๆ ให้พร้อมรับการทำงานในยุค
+                Disruptive Technology นั่นคือสิ่งสำคัญที่ไม่ควรมองข้าม
+                ไม่ว่าจะเป็นการพัฒนาทักษะการสื่อสาร การวิเคราะห์ข้อมูล
+                การทำความเข้าใจในความต้องการและพฤติกรรมของลูกค้า
+                ทักษะในการวางแผนและพัฒนาทีมให้สามารถทำงานได้อย่างมีประสิทธิภาพเพื่อให้ได้ผลลัพธ์ตามที่ต้องการ
+                รวมไปถึงการสร้างแบรนด์และทำการตลาดในยุคปัจจุบัน
+              </p>
+            </div>
           </div>
           <div class="col-12 my-5">
-            <h2>Source</h2>
-            <ul>
-              <li>
-                <a
-                  class="links"
-                  href="https://www.yournextu.com/th/%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81/disruptive-technology"
-                  >Disruptive Technology คือการเปลี่ยนแปลงครั้งสำคัญ - YourNextU
-                  | YourNextU</a
-                >
-              </li>
-              <li>
-                <a
-                  class="links"
-                  href="http://www.mitrpholmodernfarm.com/news/2020/02/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-disruptive-technology-%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%99"
-                  >รู้จักกับ Disruptive Technology เทคโนโลยีสร้างความพลิกผัน
-                  (mitrpholmodernfarm.com)</a
-                >
-              </li>
-              <li>
-                <a
-                  class="links"
-                  href="https://blog.pttexpresso.com/disruptive-technology/"
-                  >Disruptive Technology การเปลี่ยนโลกด้วยเทคโนโลยีสมัยใหม่ |
-                  PTT ExpresSo</a
-                >
-              </li>
-              <li>
-                <a
-                  class="links"
-                  href="https://www.investopedia.com/terms/d/disruptive-technology.asp"
-                  >Disruptive Technology Definition (investopedia.com)</a
-                >
-              </li>
-              <li>
-                <a
-                  class="links"
-                  href="https://theaseanpost.com/article/how-disruptive-technologies-are-transforming-southeast-asia"
-                  >How disruptive technologies are transforming Southeast Asia |
-                  The ASEAN Post</a
-                >
-              </li>
-            </ul>
+            <div data-aos="fade-down">
+              <h2>Source</h2>
+              <ul>
+                <li>
+                  <a
+                    class="links"
+                    href="https://en.wikipedia.org/wiki/Disruptive_innovation"
+                    >Disruptive innovation : Wikipedia</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="https://www.yournextu.com/th/%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81/disruptive-technology"
+                    >Disruptive Technology คือการเปลี่ยนแปลงครั้งสำคัญ -
+                    YourNextU | YourNextU</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="http://www.mitrpholmodernfarm.com/news/2020/02/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-disruptive-technology-%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%99"
+                    >รู้จักกับ Disruptive Technology เทคโนโลยีสร้างความพลิกผัน
+                    (mitrpholmodernfarm.com)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="https://blog.pttexpresso.com/disruptive-technology/"
+                    >Disruptive Technology การเปลี่ยนโลกด้วยเทคโนโลยีสมัยใหม่ |
+                    PTT ExpresSo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="https://www.investopedia.com/terms/d/disruptive-technology.asp"
+                    >Disruptive Technology Definition (investopedia.com)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="https://theaseanpost.com/article/how-disruptive-technologies-are-transforming-southeast-asia"
+                    >How disruptive technologies are transforming Southeast Asia
+                    | The ASEAN Post</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="links"
+                    href="https://medium.com/the-knowledge-spiral/disruptive-innovation-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-7cc3c87aaefc"
+                    >Disruptive Innovation คืออะไร</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="svg-container">
+      <svg
+        id="visual"
+        viewBox="0 0 1920 500"
+        width="1920"
+        height="500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <rect x="0" y="0" width="1920" height="500" fill="#545f83"></rect>
+        <path
+          d="M0 294L45.7 297.2C91.3 300.3 182.7 306.7 274.2 319.5C365.7 332.3 457.3 351.7 548.8 355.7C640.3 359.7 731.7 348.3 823 330.5C914.3 312.7 1005.7 288.3 1097 287.5C1188.3 286.7 1279.7 309.3 1371.2 310.3C1462.7 311.3 1554.3 290.7 1645.8 271.5C1737.3 252.3 1828.7 234.7 1874.3 225.8L1920 217L1920 501L1874.3 501C1828.7 501 1737.3 501 1645.8 501C1554.3 501 1462.7 501 1371.2 501C1279.7 501 1188.3 501 1097 501C1005.7 501 914.3 501 823 501C731.7 501 640.3 501 548.8 501C457.3 501 365.7 501 274.2 501C182.7 501 91.3 501 45.7 501L0 501Z"
+          fill="#707da9"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- Section 8: Oragaizer -->
     <div class="container-fluid section-7">
       <div class="container">
-        <!-- Section 8: Oragaizer -->
         <div class="row">
           <h2 class="center mb-5" style="font-size: 46px">Organizer</h2>
           <div class="col-sm-12 col-md-5 my-5 center">
@@ -831,7 +993,9 @@
         </div>
       </div>
     </div>
-    <hr class="center2" style="width: 80%" />
+    <div class="boxed section-7"></div>
+
+    <!-- <hr class="center2" style="width: 80%" /> -->
     <script>
       AOS.init();
     </script>
