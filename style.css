@@ -16,22 +16,25 @@
 * {
     box-sizing: border-box;
 }
+html {
+    font-size: calc(60% + 0.6vmin);
+}
 body {
     margin: 0;
     padding: 0;
 }
 p {
-    font-size: 18px;
+    font-size: 1.2rem;
     justify-content: space-between;
     color: rgb(107, 107, 107);
 }
 .sub-li {
-    font-size: 16px;
+    font-size: 1rem;
     justify-content: space-between;
     color: rgb(107, 107, 107);
 }
 h2 {
-    font-size: 24px;
+    font-size: 2rem;
     color: #6589e6;
     font-weight: bold;
 }
@@ -280,6 +283,10 @@ h2 {
 }
 .ul-footer li>a {
     color: rgb(218, 218, 218);
+}
+.boxed {
+    width: 100vw;
+    height: 15vh;
 }
 .section-1{
     background-color: var(--c1);
