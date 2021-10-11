@@ -126,6 +126,8 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="./vadidateForm.js"></script>
+    <script src="./showComment.js"></script>
 
     <!-- modal -->
     <div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1"
@@ -144,13 +146,13 @@
                 <div class="modal-body">
                   <div class="row">
                     <div class="col-12">
-                      <p class="text-light" style="text-indent: 2.5em">Disruptive Innovation ความหมายเร็วๆ 
+                      <p class="text-dark" style="text-indent: 2.5em">Disruptive Innovation ความหมายเร็วๆ 
                         ที่คนทั่วไปนึกถึงก็คือการที่สินค้า บริการใดๆ 
                         ที่สามารถทำให้อุตสาหกรรมปัจจุบันนั้นเกิดสั่นคลอน หรือกระทั่งตายจากไปได้ ตัวอย่างของ Disruptive Innovation 
                         มีให้เห็นมากมาย เช่น PC กับ Mainframe Smartphone กับ PDA จอ LCD กับ จอ CRT เพลงแบบดิจิตอล 
                         กับ เพลงแบบ CD ฯลฯ แต่จริงๆ แล้ว concept ของ Disruptive Innovation 
                         มันมีความหมายที่ลึกซึ้งมากไปกว่านั้น การที่เราทำความเข้าใจมันเพิ่มขึ้นอีกสักนิด </p>
-                      <p class="text-light" style="text-indent: 2.5em">The Explainer จาก hbr.org ซึ่งถือว่าเป็นจุดเริ่มต้นในการเรียนรู้ 
+                      <p class="text-dark" style="text-indent: 2.5em">The Explainer จาก hbr.org ซึ่งถือว่าเป็นจุดเริ่มต้นในการเรียนรู้ 
                         concept ทางด้านธุรกิจ การบริหารจัดการ 
                         ที่ยอดเยี่ยมมาก ทาง Harvard Business Review เขาลงทุนทำ Video สั้นๆ ขึ้นมาเพื่ออธิบายไอเดียต่างๆ 
                         เช่น Big Data, Reverse Innovation, Porter’s Five Forces, ฯลฯ</p>
@@ -225,6 +227,7 @@
       </svg>
     </div>
 
+    <!-- !Section 1 : Header -->
     <div class="container-fluid section-1">
       <div class="container">
         <!-- Section 1:WHAT'S DISRUPTIVE TECHINOLOGY? -->
@@ -280,7 +283,7 @@
       </svg>
     </div>
 
-    <!-- Section 2:Disruptive technology คือ -->
+    <!-- !Section 2:Disruptive technology คือ -->
     <div class="boxed section-2"></div>
     <div class="container-fluid section-2">
       <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -323,8 +326,6 @@
               >
                 More Information
               </button>
-
-              
         </div>
       </div>
     </div>
@@ -332,7 +333,6 @@
   </div>
     <div class="boxed section-2"></div>
 
-   
 
     <div class="svg-container">
       <svg
@@ -368,7 +368,7 @@
       </svg>
     </div>
 
-    <!-- Section 3: Disruptive Technology เปลี่ยนโลกอย่างไร -->
+    <!-- !Section 3: Disruptive Technology เปลี่ยนโลกอย่างไร -->
     <div class="container-fluid section-3">
       <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="container">
@@ -445,7 +445,7 @@
       </svg>
     </div>
 
-    <!-- Section 4:วิธีป้องกันตัวเองจาก Disruptive Technology -->
+    <!-- !Section 4:วิธีป้องกันตัวเองจาก Disruptive Technology -->
     <div class="boxed section-4"></div>
 
     <div class="container-fluid section-4">
@@ -562,7 +562,7 @@
       </svg>
     </div>
 
-    <!-- Section 5:ชนิดของ Disruptive technologies -->
+    <!-- !Section 5:ชนิดของ Disruptive technologies -->
     <div class="container-fluid section-5">
       <div class="container">
         <div class="row">
@@ -842,7 +842,7 @@
       </svg>
     </div>
 
-    <!-- Section 6:สรุป -->
+    <!-- !Section 6:สรุป -->
     <div class="container-fluid section-6">
       <div class="container">
         <div class="row">
@@ -927,6 +927,34 @@
       </div>
     </div>
 
+    <!-- !Section Comment -->
+    <div class="container-fluid section-comment">
+      <div class="container">
+        <form id="form" novalidate>
+          <div class="form-group">
+            <label for="allName">Name</label>
+            <input type="text" class="form-control" id="allName" aria-describedby="allName" placeholder="Enter your name">
+            <small id="nameVarlidate" class="form-text text-danger">Please Enter Your Name</small>
+          </div>
+          <div class="form-group">
+            <label for="textComment">Comment</label>
+            <textarea type="textfield" class="form-control" id="textComment" placeholder="What do you think..." rows="4" cols="50"></textarea>
+            <small id="nameVarlidate" class="form-text text-danger">Comment can not be blank.</small>
+          </div>
+         
+          <button class="btn btn-primary my-3">Submit</button>
+        </form>
+      </div>
+
+      <div class="container showComment">
+        <h1>Comment</h1>
+        <!-- <div class="comment-item">
+          <h3 class="comment-name">Name</h3>
+          <p class="comment-desc">Name</p>
+        </div> -->
+      </div>
+    </div>
+
     <div class="svg-container">
       <svg
         id="visual"
@@ -947,7 +975,7 @@
       </svg>
     </div>
 
-    <!-- Section 8: Oragaizer -->
+    <!-- !Section 8: Oragaizer -->
     <div class="container-fluid section-7">
       <div class="container">
         <div class="row">
@@ -995,7 +1023,6 @@
     </div>
     <div class="boxed section-7"></div>
 
-    <!-- <hr class="center2" style="width: 80%" /> -->
     <script>
       AOS.init();
     </script>
